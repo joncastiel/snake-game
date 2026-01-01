@@ -18,8 +18,7 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    left: 120px;
-    animation: pipe-animation 2s infinite linear;
+    animation: pipe-animation 2s infinite linear ;
 }
 
 
@@ -29,27 +28,13 @@
     bottom: 0;
 }
 
-.game-over {
-    width: 300px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 100;
-}
-
-.game-over.show {
-    display: block;
-}
-
 .jump {
     animation: jump 500ms ease-out;
 }
 
 @keyframes pipe-animation {
     from {
-        right: -80px;
+        right: 0px;
     }
 
     to {
